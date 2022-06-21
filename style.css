@@ -1,0 +1,49 @@
+/*
+.container{
+    height: 100vh;
+    width: 100%;
+    
+    display: flex;
+    /*display: flex; để bố cục nó nằm nang sắp theo sau chứ không có mỗi cái lại xuống dòng như block
+    
+}
+*/
+
+.container-l{
+    background-image: url('image/background.jpg');
+    max-width: 50% ;
+    width: 50% ;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.container-r{
+   width: 50%;
+   max-width: 50%;
+   display: flex ;
+   align-items: center;
+   
+   background-color: black;
+   color: aliceblue;
+   
+   /*font-size là cỡ chữ*/
+   
+   /*font-weight là độ mập của nét chữ*/
+}
+
+/*
+<img 
+            alt="Twitter-logo.svg" 
+            src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/220px-Twitter-logo.svg.png" 
+            decoding="async" 
+            fill="#ffffff"
+            width="220" 
+            height="181" 
+            srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/330px-Twitter-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/440px-Twitter-logo.svg.png 2x" 
+            data-file-width="512" 
+            data-file-height="421"
+            >
+            cái này hình xấu nên bỏ
+*/
